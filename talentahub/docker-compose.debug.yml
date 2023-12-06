@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  talentahub:
+    image: talentahub
+    build:
+      context: .
+      dockerfile: ./Dockerfile
